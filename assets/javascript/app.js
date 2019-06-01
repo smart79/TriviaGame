@@ -12,7 +12,7 @@ var questions = [{
     question: '"Making your way in the world today takes everything you got"<br>are Which 80s Tv Show Theme song lyrics?',
     answers: ["Webster", "Cheers", "The Wonder Years", "Alf"],
     correctAnswer: "Cheers",
-    image: "assets/images/Cheers.gif"
+    image: "assets/images/cheers.gif"
   }, {
     question: 'What Fast Food commercial slogan was...<br>"Wheres the Beef"?"',
     answers: ["Wendys", "Taco Bell", "Burger King", "McDonalds"],
