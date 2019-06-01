@@ -4,13 +4,13 @@ var countStartNumber = 30;
 
 // Questions
 var questions = [{
-    question: "In which video game did Mario (from Mario Brothers) first appear",
-    answers: ["Super Mario Brothers", "Smash brothers", "Donkey Kong", "Mario Kart"],
+    question: "In which video game did Mario <br>(from Nintendo) first appear?",
+    answers: ["Mario Brothers", "Smash Brothers", "Donkey Kong", "Mario Kart"],
     correctAnswer: "Donkey Kong",
     image: "assets/images/donkeyKong.gif"
   }, {
-    question: "'Making your way in the world today takes everything you got'are Which 80's Tv Show Theme song lyrics?",
-    answers: ["Webster", "Cheers", "The Wonder Years", "Alf"],
+    question: "'Making your way in the world today takes everything you got'<br>are Which 80's Tv Show Theme song lyrics?",
+    answers: ["Webster", "Cheers",  "The Wonder Years", "Alf"],
     correctAnswer: "Cheers",
     image: "assets/images/Cheers.gif"
   }, {
@@ -24,7 +24,7 @@ var questions = [{
     correctAnswer: "E.T. The Extraterrestrial",
     image: "assets/images/E.T..gif"
   }, {
-    question: "Which 80s animated movie’s tagline was “Beyond good. Beyond evil. Beyond your wildest imagination.”??",
+    question: "Which 80s animated movie’s tagline was <br>“Beyond good. Beyond evil. Beyond your wildest imagination.”??",
     answers: ["Who Framed Roger Rabbit", "The Last Unicorn", "The Transformers: The Movie", "The secret of Nimh"],
     correctAnswer: "The Transformers: The Movie",
     image: "assets/images/TheTransformers.gif"
@@ -49,7 +49,7 @@ var questions = [{
 $("#start").click(function(){
     $("#start").css("display", "none");
     $("#quiz-box").css("background-color","white");
-    $("#quiz-box").css("opacity",".4");
+    $("#quiz-box").css("opacity",".925");
     $("#questions").text(questions[Math.floor(Math.random()*questions.length)].question)
   });
 // 
