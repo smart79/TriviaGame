@@ -4,19 +4,19 @@ var countStartNumber = 30;
 
 // Questions
 var questions = [{
-    question: "In which video game did Mario <br>(from Nintendo) first appear?",
+    question: 'In which video game did Mario <br>(from Nintendo) first appear?',
     answers: ["Mario Brothers", "Smash Brothers", "Donkey Kong", "Mario Kart"],
     correctAnswer: "Donkey Kong",
     image: "assets/images/donkeyKong.gif"
   }, {
-    question: "'Making your way in the world today takes everything you got'<br>are Which 80's Tv Show Theme song lyrics?",
+    question: '"Making your way in the world today takes everything you got"<br>are Which 80s Tv Show Theme song lyrics?',
     answers: ["Webster", "Cheers", "The Wonder Years", "Alf"],
     correctAnswer: "Cheers",
     image: "assets/images/Cheers.gif"
   }, {
-    question: "What Fast Food commercial slogan was...<br>'Wheres the Beef'?",
-    answers: ["Wendy's", "Taco Bell", "Burger King", "McDonalds"],
-    correctAnswer: "Wendy's",
+    question: 'What Fast Food commercial slogan was...<br>"Wheres the Beef"?"',
+    answers: ["Wendys", "Taco Bell", "Burger King", "McDonalds"],
+    correctAnswer: "Wendys",
     image: "assets/images/Wendys.gif"
   }, {
     question: "Which 80s movie was the highest grossing<br> film of the  80's decade?",
@@ -24,12 +24,12 @@ var questions = [{
     correctAnswer: "E.T. The Extraterrestrial",
     image: "assets/images/E.T..gif"
   }, {
-    question: "Somewhere out there beneath the pale moonlight...”?",
+    question: '"Somewhere out there beneath the pale moonlight..."are song lyrics featured this 1986 animated movie?',
     answers: ["An American Tail", "The Last Unicorn", "The Transformers", "The secret of Nimh"],
     correctAnswer: "An American Tail",
-    image: "assets/images/TheTransformers.gif"
+    image: "assets/images/American-tail.gif"
   }, {
-    question: "What was the first video Mtv played?",
+    question: "What was the first  Mtv video played?",
     answers: ["Money For Nothing", "Take On Me", "Sledgehammer", "Video Killed the Radio Star"],
     correctAnswer: "Video Killed the Radio Star",
     image: "assets/images/RadioStar.gif"
@@ -39,9 +39,9 @@ var questions = [{
     correctAnswer: "Mike Tyson",
     image: "assets/images/Tyson.gif"
   }, {
-    question: "This 3-D combination puzzle Originally called the Magic Cube and sold by Ideal Toy Corp in 1980",
-    answers: ["Atari", "Rubik's Cube", "Ice Cube", "Q*bert"],
-    correctAnswer: "Rubik's Cube",
+    question: "This 3-D combination puzzle Originally called the Magic Cube was sold by Ideal Toy Corp in 1980",
+    answers: ["Atari", "Rubiks Cube", "Ice Cube", "Q*bert"],
+    correctAnswer: "Rubiks Cube",
     image: "assets/images/Rubiks.gif"
   }];
   

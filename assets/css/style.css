@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
     margin: 2.5% auto;
     background-color: transparent;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Fascinate Inline', cursive;
 }
 #sub-wrapper{
@@ -29,13 +29,14 @@ button {
     display: inline-block;
     width: 30%;
     height: 20%;
-    margin: 0 auto;
-    font-size: 23px;
+    margin: 10px auto;
+    margin-right: 10px;
+    font-size: 25px;
     cursor: pointer;
     background:turquoise;
-    border: rgb(158, 15, 158);
     color: hotpink;
-    border: 20px;
+    border: 2px solid orange;
+    padding: 2px;
     font-family: 'Fascinate Inline', cursive;
   }
 
