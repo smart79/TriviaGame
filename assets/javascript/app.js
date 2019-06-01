@@ -10,46 +10,46 @@ var questions = [{
     image: "assets/images/donkeyKong.gif"
   }, {
     question: "'Making your way in the world today takes everything you got'<br>are Which 80's Tv Show Theme song lyrics?",
-    answers: ["Webster", "Cheers",  "The Wonder Years", "Alf"],
+    answers: ["Webster", "Cheers", "The Wonder Years", "Alf"],
     correctAnswer: "Cheers",
     image: "assets/images/Cheers.gif"
   }, {
-    question: "What Fast Food commercial slogan was...'Wheres the Beef'?",
+    question: "What Fast Food commercial slogan was...<br>'Wheres the Beef'?",
     answers: ["Wendy's", "Taco Bell", "Burger King", "McDonalds"],
     correctAnswer: "Wendy's",
-    image: "assets/images/Wendy's.gif"
+    image: "assets/images/Wendys.gif"
   }, {
-    question: "Which 80s movie was the highest grossing film of the decade?",
+    question: "Which 80s movie was the highest grossing<br> film of the  80's decade?",
     answers: ["Feris Bueller", "Ghost Busters", "Gremlins", "E.T. The Extraterrestrial"],
     correctAnswer: "E.T. The Extraterrestrial",
     image: "assets/images/E.T..gif"
   }, {
-    question: "Which 80s animated movie’s tagline was <br>“Beyond good. Beyond evil. Beyond your wildest imagination.”??",
-    answers: ["Who Framed Roger Rabbit", "The Last Unicorn", "The Transformers: The Movie", "The secret of Nimh"],
-    correctAnswer: "The Transformers: The Movie",
+    question: "Somewhere out there beneath the pale moonlight...”?",
+    answers: ["An American Tail", "The Last Unicorn", "The Transformers", "The secret of Nimh"],
+    correctAnswer: "An American Tail",
     image: "assets/images/TheTransformers.gif"
   }, {
     question: "What was the first video Mtv played?",
-    answers: ["Video Killed the Radio Star", "Money For Nothing", "Take On Me", "Sledgehammer"],
+    answers: ["Money For Nothing", "Take On Me", "Sledgehammer", "Video Killed the Radio Star"],
     correctAnswer: "Video Killed the Radio Star",
     image: "assets/images/RadioStar.gif"
   }, {
-    question: "This 80's Champion holds the record as the youngest boxer to win a heavyweight title at 20 years?",
-    answers: ["Clubber Lang", "Sugar Ray Leonard", "Mohammed Ali", "Mike Tyson"],
+    question: "This 80's Champion holds the record as the youngest boxer to win a heavyweight title?",
+    answers: ["Sugar Ray Leonard", "Mohammed Ali", "Mike Tyson", "Clubber Lang"],
     correctAnswer: "Mike Tyson",
     image: "assets/images/Tyson.gif"
   }, {
-    question: "This 3-D combination puzzle Originally called the Magic Cube,the puzzle was licensed to be sold by Ideal Toy Corp in 1980",
+    question: "This 3-D combination puzzle Originally called the Magic Cube and sold by Ideal Toy Corp in 1980",
     answers: ["Atari", "Rubik's Cube", "Ice Cube", "Q*bert"],
     correctAnswer: "Rubik's Cube",
-    image: "assets/images/Rubik's.gif"
+    image: "assets/images/Rubiks.gif"
   }];
   
 //get rid of the click button
 $("#start").click(function(){
     $("#start").css("display", "none");
     $("#quiz-box").css("background-color","white");
-    $("#quiz-box").css("opacity",".925");
+    $("#quiz-box").css("opacity",".95");
     $("#questions").text(questions[Math.floor(Math.random()*questions.length)].question)
   });
 // 
@@ -102,7 +102,8 @@ $("#start").click(function(){
       card.html("<h2>Out of Time!</h2>");
       card.append("<h3>The Correct Answer was: " + questions[this.currentQuestion].correctAnswer);
       card.append("<img src='" + questions[this.currentQuestion].image + "' />");
-  
+      card.append("<br><button id='start-over'>Start Over?</button>");
+
       if (this.currentQuestion === questions.length - 1) {
         setTimeout(this.results, 3 * 1000);
       }
