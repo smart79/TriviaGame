@@ -7,16 +7,16 @@ html {
 body {
     text-align: center; 
     color: hotpink;
-    
+    font-size: 16px;
 }
 
 #wrapper {
-    width: 960px;
-    height: 95%;
-    box-sizing: border-box;
+    width: 90%;
+    max-width: 960px;
+    height: auto;
     margin: 2.5% auto;
     background-color: transparent;
-    font-size: 40px;
+    font-size: 4vw;
     font-family: 'Fascinate Inline', cursive;
 }
 #sub-wrapper{
@@ -71,5 +71,22 @@ button {
       opacity:0%;
   }
   
-  
+  /* Keep original styles, just add responsiveness */
+@media screen and (max-width: 768px) {
+    button {
+        width: 50%; /* Adjust width for tablets */
+        height: auto; /* Allow natural height */
+        font-size: clamp(18px, 4vw, 25px); /* Prevent font from getting too big/small */
+        padding: 8px; /* More comfortable touch area */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    button {
+        width: 70%; /* Larger width for smaller screens */
+        font-size: clamp(16px, 5vw, 22px);
+        padding: 10px; /* More touch-friendly */
+    }
+}
+
   
