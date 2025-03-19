@@ -2,7 +2,7 @@
 
 🕹 Test Your 80s Knowledge with This Interactive Quiz Game!
 
-## 📌 Overview
+## 📔 Overview
 
 The 80s Trivia Challenge is a nostalgic, interactive trivia game where players test their knowledge of 80s pop culture, music, movies, and history. The app features dynamic question generation, a real-time countdown timer, and an intuitive UI, all styled in a retro 80s theme.
 
